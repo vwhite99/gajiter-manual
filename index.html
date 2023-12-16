@@ -24,14 +24,20 @@
             margin: 0;
             padding: 20px;
         }
+        @media(min-width:500px){
+            #grid{
+                display: grid;
+                grid-template-columns: 150px 1fr;
+            }
+        }
         #grid{
             display: grid;
             grid-template-columns: 150px 1fr;
         }
-        ol {
+        #grid ol {
             padding-left: 33px;
         }
-        #article {
+        #grid #article {
             padding-left: 25px;
         }
     </style>
