@@ -3,23 +3,57 @@
 <head>
     <title>가지터 메뉴얼</title>
     <meta charset="utp-8">
+    <style>
+        body {
+            margin: 0;
+        }
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        h1 {
+            font-size: 45px;
+            text-align: center;
+            border-bottom: 1px solid gray;
+            margin: 0;
+            padding:20px;
+        }
+        ol {
+            border-right: 1px solid gray;
+            width: 100px;
+            margin: 0;
+            padding: 20px;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+        }
+        ol {
+            padding-left: 33px;
+        }
+        #article {
+            padding-left: 25px;
+        }
+    </style>
 </head>
 <body>
     <h1><a href="index.html">웹사이트 메뉴얼</a></h1>
-    <ol>
-        <li><a href="1.html">회원관리</a></li>
-        <li><a href="2.html">게시판관리</a></li>
-        <li><a href="3.html">관리자기능</a></li>
-    </ol>
-
-    <h2>관리자기능</h2>
-
-    <img src="coding.jpg" width="100%">
-    <h1>This is heading 1</h1>
-    <h2>This is heading 2</h2>
-    <h3>This is heading 3</h3>
-    <h4>This is heading 4</h4>
-    <h5>This is heading 5</h5>
-    <h6>This is heading 6</h6> 
+    <div id="grid">
+        <ol>
+            <li><a href="1.html">회원관리</a></li>
+            <li><a href="2.html">게시판관리</a></li>
+            <li><a href="3.html">관리자기능</a></li>
+        </ol>
+        <div id="article">
+            <h2>관리자기능</h2>
+            <P>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent aliquet fermentum risus sed rutrum. Praesent at est ut purus varius lobortis. Cras diam orci, auctor id ex non, tincidunt finibus est. In malesuada urna et arcu venenatis, ac consequat mauris placerat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ac quam tincidunt lacus vestibulum fringilla. Maecenas elementum ex dolor, at lobortis felis efficitur fringilla. Duis euismod dui consectetur erat sagittis dignissim. Quisque nisl mi, tincidunt eu sollicitudin sit amet, fermentum sit amet erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse gravida mattis nisi. Suspendisse a purus sed erat rutrum ultricies et vitae risus. Phasellus maximus condimentum fermentum. Sed semper leo ornare lorem feugiat, vel dapibus erat aliquam. Maecenas suscipit accumsan est, ut commodo ex aliquet eget. Integer ut lectus libero. Donec a orci ex. Vivamus vel orci ex. Maecenas a placerat turpis. Nam vel ultricies elit, et volutpat orci. Sed consectetur quis sem at iaculis. Nam nec magna ac velit porta dictum sit amet a turpis.
+                Integer vitae tristique dolor. Nulla rhoncus ac tellus vitae semper. Nam quis mauris condimentum, condimentum dui ut, fringilla ligula. Morbi at molestie dolor. Phasellus molestie magna non convallis tincidunt. Aliquam non felis nisl. Vivamus tristique tempor lacus, a viverra eros tincidunt in. Duis cursus lacus faucibus elementum ultrices. Cras at sem id sem vestibulum gravida eget scelerisque felis. Phasellus pellentesque eros non dui mattis viverra. Maecenas posuere pulvinar ante rhoncus finibus. Curabitur a libero ut purus semper blandit sit amet eu magna. Donec commodo porttitor nibh.
+            </P>
+        </div>
+    </div>
 </body>
 </html>
+
+
